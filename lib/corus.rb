@@ -1,3 +1,3 @@
 require 'active_record'
 
-require 'tartarus/base'
+require 'corus/base'

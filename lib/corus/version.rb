@@ -1,3 +1,3 @@
-module Tartarus
+module Corus
   VERSION = "0.0.1"
 end

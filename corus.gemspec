@@ -1,18 +1,18 @@
 # -*- encoding: utf-8 -*-
 $:.push File.expand_path("../lib", __FILE__)
-require "tartarus/version"
+require "corus/version"
 
 Gem::Specification.new do |s|
-  s.name        = "tartarus"
-  s.version     = Tartarus::VERSION
+  s.name        = "corus"
+  s.version     = Corus::VERSION
   s.platform    = Gem::Platform::RUBY
   s.authors     = ["Duncan Grazier"]
   s.email       = ["duncan@impossiblerocket.com"]
-  s.homepage    = "https://github.com/itsmeduncan/tartarus"
+  s.homepage    = "https://github.com/itsmeduncan/corus"
   s.summary     = %q{Define what is not nullable related to an ActiveRecord backed class}
   s.description = %q{Use this gem to define what is not nullable related to an ActiveRecord backed class}
 
-  s.rubyforge_project = "tartarus"
+  s.rubyforge_project = "corus"
 
   s.files         = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")

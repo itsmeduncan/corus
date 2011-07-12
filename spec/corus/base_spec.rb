@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-describe Tartarus::Base do
+describe Corus::Base do
 
   ActiveRecord::Base.connection.execute("DROP TABLE IF EXISTS 'foos'")
   ActiveRecord::Base.connection.create_table(:foos) do |t|
@@ -10,7 +10,7 @@ describe Tartarus::Base do
   end
 
   class Foo < ActiveRecord::Base
-    tartarus :foo, :bar, :widget
+    corus :foo, :bar, :widget
   end
 
   before(:each) do

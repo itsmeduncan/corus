@@ -1,10 +1,10 @@
-# Tartarus
+# Corus
 
 Use this gem to define what is not nullable related to an ActiveRecord backed class
 
 ### Install
 
-    config.gem 'tartarus'
+    config.gem 'corus'
 
 ### Usage
 

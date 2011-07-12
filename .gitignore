@@ -2,5 +2,5 @@ pkg/*
 *.gem
 .bundle
 .rvmrc
-tartarus.db
+corus.db
 README.html
