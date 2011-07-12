@@ -8,7 +8,7 @@ Use this gem to define what is not nullable related to an ActiveRecord backed cl
 
 ### Usage
 
-    ```ruby
+```ruby
     class Foo < ActiveRecord::Base
         tartarus :bar
     end
@@ -25,7 +25,7 @@ Use this gem to define what is not nullable related to an ActiveRecord backed cl
     thing.valid? #=> true
 
     things.save #=> true
-    ```
+```
 
 ### License
 
