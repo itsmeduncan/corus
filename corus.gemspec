@@ -24,5 +24,5 @@ Gem::Specification.new do |s|
   s.add_development_dependency("mocha", ["~> 0.9.12"])
   s.add_development_dependency("sqlite3", ["~> 1.3.3"])
 
-  s.add_dependency("activerecord", ["~> 2.3.12"])
+  s.add_dependency("activerecord", ">= 2.3.12", "< 7.1.0")
 end
